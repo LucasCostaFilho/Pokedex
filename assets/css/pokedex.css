@@ -7,24 +7,18 @@
     margin: 0;
 }
 
-/* normal #a6a877
-grass #77c850
-fire #ee7f30
-water #678fee
-electric #f7cf2e
-ice #98d5d7
-ground #dfbf69
-flying #a98ff0
-poison #a040a0
-fighting #bf3029
-psychic #f65687
-dark #725847
-rock #b8b720
-ghost #6e5896
-steel #b9b7cf
-dragon #6f38f6
-fairy #f9aec7 */
+a {
+    text-decoration: none;
+}
 
+a:hover {
+    filter: brightness(1.1);
+    cursor: default;
+}
+
+a:active {
+    filter: brightness(0.9);
+}
 
 .pokemon {
     display: flex;
@@ -118,6 +112,19 @@ fairy #f9aec7 */
     .pokemons {
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
+}
+
+.pokemonButton {
+    border-style: none;
+    background-color: transparent;
+}
+
+.pokemonButton:hover {
+    filter: brightness(1.1);
+}
+
+.pokemonButton:active {
+    filter: brightness(0.9);
 }
 
 /* pokemon types */
