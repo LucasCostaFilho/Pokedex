@@ -94,6 +94,7 @@ fairy #f9aec7 */
 
 .pagination button:hover {
     background-color: #4f5dbf;
+    cursor: pointer;
 }
 
 .pagination button:active {
@@ -134,7 +135,7 @@ fairy #f9aec7 */
     background-color: #678fee;
 }
 .electric {
-    background-color: #f7cf2e;
+    background-color: #caa308;
 }
 .ice {
     background-color: #98d5d7;
